@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    /* Margens externas */
+    padding: 0;
+    /* Margens internas */
+    font-family: Cambria, Georgia, sans-serif;
+    box-sizing: border-box;    /* Encaixa, não passa o limite */
+}
+
+
+/* Colocando menu na horizontal com css */
+#menu-h {
+    background-color: #870606;
+}
+
+
+#menu-h ul {
+    max-width: 80%;
+    padding: 0;
+}
+
+
+#menu-h ul li{
+    display: inline;
+}
+
+
+#menu-h ul li a{
+    color: #f2efef;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: backgroud .8s;
+}
+#menu-h ul li a:hover{
+    background-color: rgb(12, 1, 1);
+    color:#dcf30c;
+    scale: 1.2;
+    text-decoration: underline;
+
+    
+}
+/* efeito menu */
+
+#menu-h ul li:last-child a {
+    float:right;
+    background-color: #010311;
+}
+/* Css Banner */
+.text_banner{
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 35px;%;
+    color: #e7f30c;
+}
+body,html{
+    height: 100%;
+}
+/* Css para as imagens pequenas */
+.column{
+    float: left;
+    width: 25%;
+    padding: 100px 100px;
+    text-align: center;
+}
+.column img{
+    width: 100px;
+    border:100px solid #0e0d0d;
+    border-radius: 0;
+    padding: 10px;
+}
+.banner{
+    background-image: url("../img/bannersobre.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
